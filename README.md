@@ -111,7 +111,7 @@ https://yourappname.up.railway.app/me
 
 💻 GitHub: [@veradanicode](https://github.com/veradanicode)
 
-💬 LinkedIn: [Vera Daniel](www.linkedin.com/in/vera-daniel-4a6942299)
+💬 LinkedIn: [Vera Daniel](https://www.linkedin.com/in/vera-daniel-4a6942299)
 
 🏁 Submission
 ---
@@ -121,4 +121,4 @@ https://yourappname.up.railway.app/me
 
 ✅ Repo includes this README
 
-✅ LinkedIn/Dev.to post with project details and snapshots
+✅ LinkedIn post with project details and snapshots
