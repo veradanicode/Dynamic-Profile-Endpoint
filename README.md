@@ -3,6 +3,12 @@
 
 This project implements a simple RESTful API endpoint (`/me`) that returns dynamic JSON data containing personal information, the current UTC timestamp, and a random cat fact fetched from the [Cat Facts API](https://catfact.ninja/fact).
 
+###🚀 Live Demo
+---
+
+🔗 Deployed on Railway:
+
+https://your-app-name.up.railway.app/me
 ---
 
 ## 🚀 Tech Stack
@@ -44,7 +50,7 @@ fact	String	Random cat fact from the Cat Facts API
 🧰 Installation & Setup
 1️⃣ Clone this repository
 ```
-git clone https://github.com/<your-username>/backend-wizards-stage0.git
+git clone https://github.com/<your-username>/Dynamic-Profile-Endpoint.git
 cd backend-wizards-stage0
 ```
 2️⃣ Install dependencies
@@ -53,10 +59,13 @@ npm install
 ```
 3️⃣ Create a .env file (optional)
 
-If you need to add environment variables later (like API keys or PORT):
-
-PORT=3000
-
+In your project root, create a file named .env and add:
+```
+NAME=Your name
+EMAIL=addemail@gmail.com
+STACK=Full Stack Developer
+PORT=5000
+```
 4️⃣ Run the server
 ```
 npm start
@@ -79,14 +88,14 @@ You should see your JSON response.
 🧪 Error Handling
 ---
 If the Cat Facts API fails or times out, a fallback message will be returned:
-
+```json
 {
   "status": "success",
   "user": { ... },
   "timestamp": "2025-09-28T15:24:51.123Z",
   "fact": "Unable to fetch cat fact at the moment. Please try again later."
 }
-
+```
 
 📜 Notes
 ---
@@ -115,7 +124,7 @@ https://yourappname.up.railway.app/me
 💬 LinkedIn: Vera Daniel
 
 🏁 Submission
-
+---
 ✅ Working /me endpoint returning JSON
 
 ✅ Hosted on an approved platform
