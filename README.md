@@ -40,7 +40,7 @@ user.name	String	Your full name
 user.stack	String	Your backend technology stack
 timestamp	String	Current UTC time in ISO 8601 format
 fact	String	Random cat fact from the Cat Facts API
-```
+
 🧰 Installation & Setup
 1️⃣ Clone this repository
 ```
