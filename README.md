@@ -8,7 +8,7 @@ This project implements a simple RESTful API endpoint (`/me`) that returns dynam
 
 🔗 Deployed on Railway:
 
-https://your-app-name.up.railway.app/me
+https://dynamic-profile-endpoint-production-7ba9.up.railway.app/me
 ---
 
 ## 🚀 Tech Stack
@@ -37,16 +37,6 @@ https://your-app-name.up.railway.app/me
 }
 ```
 
-📋 Response Fields
----
-Field	Type	Description
-status	String	Always "success"
-user.email	String	Your email address
-user.name	String	Your full name
-user.stack	String	Your backend technology stack
-timestamp	String	Current UTC time in ISO 8601 format
-fact	String	Random cat fact from the Cat Facts API
-
 🧰 Installation & Setup
 1️⃣ Clone this repository
 ```
@@ -64,7 +54,7 @@ In your project root, create a file named .env and add:
 NAME=Your name
 EMAIL=addemail@gmail.com
 STACK=Full Stack Developer
-PORT=5000
+PORT=3000
 ```
 4️⃣ Run the server
 ```
@@ -119,9 +109,9 @@ https://yourappname.up.railway.app/me
 👩🏽‍💻 Vera Daniel
 📧 Email: veradanicode@gmail.com
 
-💻 GitHub: @veradanicode
+💻 GitHub: [@veradanicode](https://github.com/veradanicode)
 
-💬 LinkedIn: Vera Daniel
+💬 LinkedIn: [Vera Daniel](www.linkedin.com/in/vera-daniel-4a6942299)
 
 🏁 Submission
 ---
